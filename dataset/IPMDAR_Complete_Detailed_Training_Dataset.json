@@ -1,0 +1,614 @@
+{
+    "dataset_name": "IPMDAR_Complete_Detailed_Training_Dataset",
+    "description": "A fully detailed training dataset extracted from the IPMDAR Implementation Guide, structured with all sub-sections and detailed content.",
+    "data": [
+        {
+            "section": "1",
+            "title": "Introduction to IPMDAR",
+            "description": "Overview of IPMDAR, its purpose, and how it supports Department of Defense acquisition programs.",
+            "content": "The IPMDAR is designed to standardize performance measurement data reporting across DoD acquisition contracts. It ensures consistency and transparency in contract execution tracking.",
+            "sub_sections": [
+                {
+                    "sub_section": "1.1",
+                    "title": "Purpose of IPMDAR",
+                    "description": "Defines the objective of the Integrated Program Management Data and Analysis Report.",
+                    "content": "IPMDAR enables effective cost and schedule performance tracking by providing standardized reporting methods."
+                },
+                {
+                    "sub_section": "1.2",
+                    "title": "IPMDAR Components",
+                    "description": "Breaks down the three main components of IPMDAR.",
+                    "content": "The Contract Performance Dataset (CPD), Schedule, and Performance Narrative Report work together to provide a comprehensive view of project health.",
+                    "sub_sections": [
+                        {
+                            "sub_section": "1.2.1",
+                            "title": "Contract Performance Dataset (CPD)",
+                            "description": "Captures key cost and performance data.",
+                            "content": "The CPD includes Earned Value data, Work Breakdown Structures (WBS), and contractor organizational details."
+                        },
+                        {
+                            "sub_section": "1.2.2",
+                            "title": "Schedule",
+                            "description": "Defines how project schedules are structured and analyzed.",
+                            "content": "Project schedules contain milestones, interdependencies, and progress tracking to evaluate adherence to contract timelines."
+                        },
+                        {
+                            "sub_section": "1.2.3",
+                            "title": "Performance Narrative Report",
+                            "description": "Provides qualitative explanations for performance variances.",
+                            "content": "This report explains the causes of variances in cost and schedule, outlining corrective actions taken."
+                        }
+                    ]
+                }
+            ],
+            "keywords": [
+                "IPMDAR",
+                "Contract Performance",
+                "DoD",
+                "Earned Value",
+                "Scheduling"
+            ],
+            "category": "Overview"
+        },
+        {
+            "section": "2",
+            "title": "Data Submission Requirements",
+            "description": "Defines the process for submitting IPMDAR data.",
+            "content": "Data must be submitted in electronic format, with clear version control and security requirements.",
+            "sub_sections": [
+                {
+                    "sub_section": "2.1",
+                    "title": "Electronic Submission",
+                    "description": "Explains the method of submitting IPMDAR reports.",
+                    "content": "Data must be uploaded through approved Department of Defense repositories in XML or JSON format."
+                },
+                {
+                    "sub_section": "2.2",
+                    "title": "Version Control",
+                    "description": "Ensures accuracy and consistency in data reporting.",
+                    "content": "Each submission must include metadata specifying version numbers, dates, and revisions."
+                }
+            ],
+            "keywords": [
+                "IPMDAR Submission",
+                "Data Requirements",
+                "Electronic Submission",
+                "Version Control"
+            ],
+            "category": "Data Management"
+        },
+        {
+            "section": "3",
+            "title": "Compliance and Regulations",
+            "description": "Outlines IPMDAR compliance requirements and related federal regulations.",
+            "content": "IPMDAR reporting must comply with the Defense Federal Acquisition Regulation Supplement (DFARS).",
+            "sub_sections": [
+                {
+                    "sub_section": "3.1",
+                    "title": "Earned Value Management (EVM) Compliance",
+                    "description": "Details the importance of EVM in IPMDAR.",
+                    "content": "EVM compliance ensures that all cost and schedule data align with earned value methodologies."
+                },
+                {
+                    "sub_section": "3.2",
+                    "title": "Data Security and Integrity",
+                    "description": "Establishes guidelines for maintaining data security.",
+                    "content": "Data must be encrypted, and access controlled according to DoD cybersecurity standards."
+                }
+            ],
+            "keywords": [
+                "IPMDAR Compliance",
+                "EVM",
+                "Regulations",
+                "DFARS",
+                "Data Security"
+            ],
+            "category": "Regulatory Requirements"
+        },
+        {
+            "section": "4",
+            "title": "Forecasting and Analysis",
+            "description": "Explains predictive analytics for cost and schedule performance.",
+            "content": "Machine learning models are used to predict future contract performance based on historical trends.",
+            "sub_sections": [
+                {
+                    "sub_section": "4.1",
+                    "title": "Estimating at Completion (EAC)",
+                    "description": "Details how cost forecasts are created.",
+                    "content": "EAC is calculated using historical cost performance and projected trends."
+                },
+                {
+                    "sub_section": "4.2",
+                    "title": "Schedule Risk Analysis",
+                    "description": "Discusses Monte Carlo simulations for project schedule forecasting.",
+                    "content": "Monte Carlo simulations provide probabilistic forecasts of potential schedule delays based on historical data."
+                }
+            ],
+            "keywords": [
+                "Forecasting",
+                "EAC",
+                "Schedule Risk",
+                "Monte Carlo Analysis",
+                "Predictive Analytics"
+            ],
+            "category": "Analysis"
+        }
+    ],
+    "training_data": {
+        "schedule_risk": [
+            {
+                "baseline": {
+                    "planned_start": "2024-01-01",
+                    "planned_finish": "2025-12-31",
+                    "critical_path_length": 450,
+                    "duration": 730
+                },
+                "current": {
+                    "actual_start": "2024-01-01",
+                    "forecast_finish": "2026-01-31",
+                    "critical_path_length": 480,
+                    "duration": 760
+                },
+                "risk_level": "medium"
+            },
+            {
+                "baseline": {
+                    "planned_start": "2024-02-01",
+                    "planned_finish": "2026-01-31",
+                    "critical_path_length": 500,
+                    "duration": 730
+                },
+                "current": {
+                    "actual_start": "2024-02-01",
+                    "forecast_finish": "2025-12-31",
+                    "critical_path_length": 490,
+                    "duration": 700
+                },
+                "risk_level": "low"
+            },
+            {
+                "baseline": {
+                    "planned_start": "2024-03-01",
+                    "planned_finish": "2025-08-31",
+                    "critical_path_length": 350,
+                    "duration": 550
+                },
+                "current": {
+                    "actual_start": "2024-03-01",
+                    "forecast_finish": "2025-10-31",
+                    "critical_path_length": 380,
+                    "duration": 610
+                },
+                "risk_level": "high"
+            },
+            {
+                "baseline": {
+                    "planned_start": "2024-01-15",
+                    "planned_finish": "2025-12-15",
+                    "critical_path_length": 460,
+                    "duration": 700
+                },
+                "current": {
+                    "actual_start": "2024-01-20",
+                    "forecast_finish": "2026-02-15",
+                    "critical_path_length": 485,
+                    "duration": 755
+                },
+                "risk_level": "medium"
+            },
+            {
+                "baseline": {
+                    "planned_start": "2024-02-15",
+                    "planned_finish": "2026-01-15",
+                    "critical_path_length": 495,
+                    "duration": 720
+                },
+                "current": {
+                    "actual_start": "2024-02-15",
+                    "forecast_finish": "2025-12-15",
+                    "critical_path_length": 485,
+                    "duration": 690
+                },
+                "risk_level": "low"
+            },
+            {
+                "baseline": {
+                    "planned_start": "2024-03-15",
+                    "planned_finish": "2025-09-15",
+                    "critical_path_length": 360,
+                    "duration": 540
+                },
+                "current": {
+                    "actual_start": "2024-03-20",
+                    "forecast_finish": "2025-11-15",
+                    "critical_path_length": 390,
+                    "duration": 605
+                },
+                "risk_level": "high"
+            },
+            {
+                "baseline": {
+                    "planned_start": "2024-01-30",
+                    "planned_finish": "2025-12-20",
+                    "critical_path_length": 455,
+                    "duration": 710
+                },
+                "current": {
+                    "actual_start": "2024-02-05",
+                    "forecast_finish": "2026-02-20",
+                    "critical_path_length": 490,
+                    "duration": 745
+                },
+                "risk_level": "medium"
+            },
+            {
+                "baseline": {
+                    "planned_start": "2024-02-20",
+                    "planned_finish": "2026-01-20",
+                    "critical_path_length": 505,
+                    "duration": 725
+                },
+                "current": {
+                    "actual_start": "2024-02-20",
+                    "forecast_finish": "2025-12-20",
+                    "critical_path_length": 495,
+                    "duration": 695
+                },
+                "risk_level": "low"
+            },
+            {
+                "baseline": {
+                    "planned_start": "2024-03-20",
+                    "planned_finish": "2025-09-20",
+                    "critical_path_length": 355,
+                    "duration": 545
+                },
+                "current": {
+                    "actual_start": "2024-03-25",
+                    "forecast_finish": "2025-11-20",
+                    "critical_path_length": 385,
+                    "duration": 615
+                },
+                "risk_level": "high"
+            }
+        ],
+        "samples": [
+            {
+                "id": "sample_001",
+                "contract_data": {
+                    "contract_number": "F123-456-789",
+                    "contractor": "Defense Contractor Inc.",
+                    "total_value": 10000000.00,
+                    "start_date": "2024-01-01",
+                    "end_date": "2025-12-31"
+                },
+                "performance_data": {
+                    "CPI": 0.95,
+                    "SPI": 0.98,
+                    "BCWS": 1000000.00,
+                    "BCWP": 950000.00,
+                    "ACWP": 1000000.00,
+                    "CV": -50000.00,
+                    "SV": -20000.00
+                },
+                "schedule_data": {
+                    "baseline_schedule": {
+                        "planned_start": "2024-01-01",
+                        "planned_finish": "2025-12-31",
+                        "critical_path_length": 450,
+                        "duration": 730
+                    },
+                    "current_schedule": {
+                        "actual_start": "2024-01-01",
+                        "forecast_finish": "2026-01-31",
+                        "critical_path_length": 480,
+                        "duration": 760
+                    },
+                    "critical_path": {
+                        "total_float": -30,
+                        "activities": [
+                            "Design Phase",
+                            "Development Phase",
+                            "Testing Phase",
+                            "Deployment Phase"
+                        ]
+                    },
+                    "float_analysis": {
+                        "total_float_distribution": {
+                            "negative": 15,
+                            "zero": 25,
+                            "positive": 60
+                        }
+                    }
+                },
+                "risk_assessment": {
+                    "schedule_risk": "medium",
+                    "cost_risk": "high",
+                    "technical_risk": "low",
+                    "overall_risk": "medium"
+                }
+            },
+            {
+                "id": "sample_002",
+                "contract_data": {
+                    "contract_number": "G987-654-321",
+                    "contractor": "Aerospace Systems LLC",
+                    "total_value": 15000000.00,
+                    "start_date": "2024-02-01",
+                    "end_date": "2026-01-31"
+                },
+                "performance_data": {
+                    "CPI": 1.05,
+                    "SPI": 1.02,
+                    "BCWS": 2000000.00,
+                    "BCWP": 2100000.00,
+                    "ACWP": 2000000.00,
+                    "CV": 100000.00,
+                    "SV": 40000.00
+                },
+                "schedule_data": {
+                    "baseline_schedule": {
+                        "planned_start": "2024-02-01",
+                        "planned_finish": "2026-01-31",
+                        "critical_path_length": 500,
+                        "duration": 730
+                    },
+                    "current_schedule": {
+                        "actual_start": "2024-02-01",
+                        "forecast_finish": "2025-12-31",
+                        "critical_path_length": 490,
+                        "duration": 700
+                    },
+                    "critical_path": {
+                        "total_float": 10,
+                        "activities": [
+                            "Requirements Analysis",
+                            "System Design",
+                            "Implementation",
+                            "Integration",
+                            "Verification"
+                        ]
+                    },
+                    "float_analysis": {
+                        "total_float_distribution": {
+                            "negative": 5,
+                            "zero": 20,
+                            "positive": 75
+                        }
+                    }
+                },
+                "risk_assessment": {
+                    "schedule_risk": "low",
+                    "cost_risk": "low",
+                    "technical_risk": "medium",
+                    "overall_risk": "low"
+                }
+            },
+            {
+                "id": "sample_003",
+                "contract_data": {
+                    "contract_number": "H456-789-123",
+                    "contractor": "Defense Technologies Corp",
+                    "total_value": 8000000.00,
+                    "start_date": "2024-03-01",
+                    "end_date": "2025-08-31"
+                },
+                "performance_data": {
+                    "CPI": 0.88,
+                    "SPI": 0.92,
+                    "BCWS": 1500000.00,
+                    "BCWP": 1380000.00,
+                    "ACWP": 1568181.82,
+                    "CV": -188181.82,
+                    "SV": -120000.00
+                },
+                "schedule_data": {
+                    "baseline_schedule": {
+                        "planned_start": "2024-03-01",
+                        "planned_finish": "2025-08-31",
+                        "critical_path_length": 350,
+                        "duration": 550
+                    },
+                    "current_schedule": {
+                        "actual_start": "2024-03-01",
+                        "forecast_finish": "2025-10-31",
+                        "critical_path_length": 380,
+                        "duration": 610
+                    },
+                    "critical_path": {
+                        "total_float": -30,
+                        "activities": [
+                            "Planning",
+                            "Design",
+                            "Production",
+                            "Testing",
+                            "Delivery"
+                        ]
+                    },
+                    "float_analysis": {
+                        "total_float_distribution": {
+                            "negative": 25,
+                            "zero": 30,
+                            "positive": 45
+                        }
+                    }
+                },
+                "risk_assessment": {
+                    "schedule_risk": "high",
+                    "cost_risk": "high",
+                    "technical_risk": "medium",
+                    "overall_risk": "high"
+                }
+            }
+        ]
+    },
+    "samples": [
+        {
+            "id": "sample_001",
+            "contract_data": {
+                "contract_number": "F123-456-789",
+                "contractor": "Defense Contractor Inc.",
+                "total_value": 10000000.00,
+                "start_date": "2024-01-01",
+                "end_date": "2025-12-31"
+            },
+            "performance_data": {
+                "CPI": 0.95,
+                "SPI": 0.98,
+                "BCWS": 1000000.00,
+                "BCWP": 950000.00,
+                "ACWP": 1000000.00,
+                "CV": -50000.00,
+                "SV": -20000.00
+            },
+            "schedule_data": {
+                "baseline_schedule": {
+                    "planned_start": "2024-01-01",
+                    "planned_finish": "2025-12-31",
+                    "critical_path_length": 450,
+                    "duration": 730
+                },
+                "current_schedule": {
+                    "actual_start": "2024-01-01",
+                    "forecast_finish": "2026-01-31",
+                    "critical_path_length": 480,
+                    "duration": 760
+                },
+                "critical_path": {
+                    "total_float": -30,
+                    "activities": [
+                        "Design Phase",
+                        "Development Phase",
+                        "Testing Phase",
+                        "Deployment Phase"
+                    ]
+                },
+                "float_analysis": {
+                    "total_float_distribution": {
+                        "negative": 15,
+                        "zero": 25,
+                        "positive": 60
+                    }
+                }
+            },
+            "risk_assessment": {
+                "schedule_risk": "medium",
+                "cost_risk": "high",
+                "technical_risk": "low",
+                "overall_risk": "medium"
+            }
+        },
+        {
+            "id": "sample_002",
+            "contract_data": {
+                "contract_number": "G987-654-321",
+                "contractor": "Aerospace Systems LLC",
+                "total_value": 15000000.00,
+                "start_date": "2024-02-01",
+                "end_date": "2026-01-31"
+            },
+            "performance_data": {
+                "CPI": 1.05,
+                "SPI": 1.02,
+                "BCWS": 2000000.00,
+                "BCWP": 2100000.00,
+                "ACWP": 2000000.00,
+                "CV": 100000.00,
+                "SV": 40000.00
+            },
+            "schedule_data": {
+                "baseline_schedule": {
+                    "planned_start": "2024-02-01",
+                    "planned_finish": "2026-01-31",
+                    "critical_path_length": 500,
+                    "duration": 730
+                },
+                "current_schedule": {
+                    "actual_start": "2024-02-01",
+                    "forecast_finish": "2025-12-31",
+                    "critical_path_length": 490,
+                    "duration": 700
+                },
+                "critical_path": {
+                    "total_float": 10,
+                    "activities": [
+                        "Requirements Analysis",
+                        "System Design",
+                        "Implementation",
+                        "Integration",
+                        "Verification"
+                    ]
+                },
+                "float_analysis": {
+                    "total_float_distribution": {
+                        "negative": 5,
+                        "zero": 20,
+                        "positive": 75
+                    }
+                }
+            },
+            "risk_assessment": {
+                "schedule_risk": "low",
+                "cost_risk": "low",
+                "technical_risk": "medium",
+                "overall_risk": "low"
+            }
+        },
+        {
+            "id": "sample_003",
+            "contract_data": {
+                "contract_number": "H456-789-123",
+                "contractor": "Defense Technologies Corp",
+                "total_value": 8000000.00,
+                "start_date": "2024-03-01",
+                "end_date": "2025-08-31"
+            },
+            "performance_data": {
+                "CPI": 0.88,
+                "SPI": 0.92,
+                "BCWS": 1500000.00,
+                "BCWP": 1380000.00,
+                "ACWP": 1568181.82,
+                "CV": -188181.82,
+                "SV": -120000.00
+            },
+            "schedule_data": {
+                "baseline_schedule": {
+                    "planned_start": "2024-03-01",
+                    "planned_finish": "2025-08-31",
+                    "critical_path_length": 350,
+                    "duration": 550
+                },
+                "current_schedule": {
+                    "actual_start": "2024-03-01",
+                    "forecast_finish": "2025-10-31",
+                    "critical_path_length": 380,
+                    "duration": 610
+                },
+                "critical_path": {
+                    "total_float": -30,
+                    "activities": [
+                        "Planning",
+                        "Design",
+                        "Production",
+                        "Testing",
+                        "Delivery"
+                    ]
+                },
+                "float_analysis": {
+                    "total_float_distribution": {
+                        "negative": 25,
+                        "zero": 30,
+                        "positive": 45
+                    }
+                }
+            },
+            "risk_assessment": {
+                "schedule_risk": "high",
+                "cost_risk": "high",
+                "technical_risk": "medium",
+                "overall_risk": "high"
+            }
+        }
+    ]
+}

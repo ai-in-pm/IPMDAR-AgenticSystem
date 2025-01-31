@@ -1,0 +1,151 @@
+{
+    "dataset_name": "IPMDAR_Mathematical_Training_Dataset",
+    "description": "Advanced mathematical training data for IPMDAR AI agents to solve complex cost and schedule problems",
+    "training_data": {
+        "cost_analysis": [
+            {
+                "problem": "Earned Value Analysis with Non-Linear Cost Growth",
+                "description": "Given a project with non-linear cost growth pattern following f(t) = at² + bt + c, where t is time in months, determine the Estimate at Completion (EAC) using Monte Carlo simulation.",
+                "input_data": {
+                    "coefficients": {"a": 0.5, "b": 2, "c": 100},
+                    "current_month": 6,
+                    "BCWS": 250,
+                    "BCWP": 200,
+                    "ACWP": 280
+                },
+                "solution_approach": {
+                    "steps": [
+                        "1. Calculate current CPI and SPI",
+                        "2. Apply polynomial regression to historical cost data",
+                        "3. Run Monte Carlo simulation with varying coefficients",
+                        "4. Calculate confidence intervals for EAC"
+                    ],
+                    "formulas": {
+                        "CPI": "BCWP/ACWP",
+                        "SPI": "BCWP/BCWS",
+                        "cost_function": "f(t) = at² + bt + c",
+                        "EAC_range": "Monte Carlo results with 80% confidence interval"
+                    }
+                }
+            },
+            {
+                "problem": "Complex Cost Variance Analysis",
+                "description": "Analyze cost variances in a multi-component project with interdependent cost factors",
+                "input_data": {
+                    "components": [
+                        {
+                            "name": "Component A",
+                            "planned_cost": 1000,
+                            "actual_cost": 1200,
+                            "dependencies": ["B", "C"]
+                        },
+                        {
+                            "name": "Component B",
+                            "planned_cost": 800,
+                            "actual_cost": 750,
+                            "dependencies": ["C"]
+                        },
+                        {
+                            "name": "Component C",
+                            "planned_cost": 500,
+                            "actual_cost": 600,
+                            "dependencies": []
+                        }
+                    ]
+                },
+                "solution_approach": {
+                    "steps": [
+                        "1. Build dependency graph",
+                        "2. Calculate individual variances",
+                        "3. Apply graph theory to analyze propagation of variances",
+                        "4. Compute total project impact"
+                    ],
+                    "formulas": {
+                        "component_variance": "actual_cost - planned_cost",
+                        "propagation_factor": "Based on topological sort of dependency graph",
+                        "total_impact": "Sum of weighted variances based on dependencies"
+                    }
+                }
+            }
+        ],
+        "schedule_analysis": [
+            {
+                "problem": "Critical Path Optimization with Resource Constraints",
+                "description": "Optimize project schedule with limited resources and non-linear task dependencies",
+                "input_data": {
+                    "tasks": [
+                        {
+                            "id": "T1",
+                            "duration": 10,
+                            "resources": {"A": 2, "B": 1},
+                            "dependencies": []
+                        },
+                        {
+                            "id": "T2",
+                            "duration": 15,
+                            "resources": {"A": 1, "B": 2},
+                            "dependencies": ["T1"]
+                        },
+                        {
+                            "id": "T3",
+                            "duration": 12,
+                            "resources": {"A": 3, "B": 1},
+                            "dependencies": ["T1"]
+                        }
+                    ],
+                    "resource_limits": {"A": 4, "B": 3}
+                },
+                "solution_approach": {
+                    "steps": [
+                        "1. Build resource-constrained network diagram",
+                        "2. Apply modified critical path method",
+                        "3. Use linear programming for resource optimization",
+                        "4. Calculate float with resource constraints"
+                    ],
+                    "formulas": {
+                        "resource_usage": "sum(task.resources) for concurrent tasks",
+                        "modified_float": "min(traditional_float, resource_constrained_float)",
+                        "optimal_duration": "LP solution with resource constraints"
+                    }
+                }
+            },
+            {
+                "problem": "Schedule Risk with Multiple Uncertainty Factors",
+                "description": "Analyze schedule risk considering multiple uncertainty factors and their correlations",
+                "input_data": {
+                    "baseline_schedule": {
+                        "duration": 100,
+                        "critical_path_tasks": ["A", "C", "E"],
+                        "uncertainty_factors": [
+                            {
+                                "factor": "Weather",
+                                "impact_distribution": "normal(0, 5)"
+                            },
+                            {
+                                "factor": "Resource Availability",
+                                "impact_distribution": "triangular(-2, 0, 4)"
+                            },
+                            {
+                                "factor": "Technical Complexity",
+                                "impact_distribution": "lognormal(1, 0.5)"
+                            }
+                        ]
+                    }
+                },
+                "solution_approach": {
+                    "steps": [
+                        "1. Model uncertainty distributions",
+                        "2. Calculate correlation matrix",
+                        "3. Run correlated Monte Carlo simulation",
+                        "4. Compute probabilistic completion dates"
+                    ],
+                    "formulas": {
+                        "total_variance": "sum of weighted variances with correlations",
+                        "completion_probability": "P(completion <= target_date)",
+                        "confidence_intervals": "Using quantile function of combined distribution"
+                    }
+                }
+            }
+        ]
+    }
+}
