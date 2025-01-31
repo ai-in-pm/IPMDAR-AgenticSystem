@@ -2,6 +2,9 @@
 
 An advanced AI system for analyzing and processing Integrated Program Management Data Analysis Reports (IPMDAR) with PhD-level understanding and advanced mathematical capabilities.
 
+![image](https://github.com/user-attachments/assets/584f1c7c-3f7c-41a5-a5ba-817b5222d5cc)
+
+
 ## Features
 
 - **Data Ingestion**: Automated parsing and validation of IPMDAR data
