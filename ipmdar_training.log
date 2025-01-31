@@ -1,0 +1,248 @@
+2025-01-30 20:22:28,547 - __main__ - INFO - Starting IPMDAR AI Agents specialized training...
+2025-01-30 20:22:28,547 - __main__ - INFO - Using guide: D:\cc-working-dir\IPMDAR-AgenticSystem\dataset\IPMDAR Implementation Guide - Oct2020 - For Public Release - Signature Edition.pdf
+2025-01-30 20:22:28,547 - __main__ - INFO - Using dataset: D:\cc-working-dir\IPMDAR-AgenticSystem\dataset\IPMDAR_Complete_Detailed_Training_Dataset.json
+2025-01-30 20:22:30,810 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-01-30 20:22:30,810 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2025-01-30 20:22:44,598 - agents.training.ipmdar_trainer - ERROR - Dataset Loading Error: With n_samples=1, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+2025-01-30 20:22:44,604 - agents.training.ipmdar_trainer - ERROR - Training Error: With n_samples=1, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+2025-01-30 20:22:44,606 - __main__ - ERROR - Training failed: With n_samples=1, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+2025-01-30 20:24:22,437 - __main__ - INFO - Starting IPMDAR AI Agents specialized training...
+2025-01-30 20:24:22,440 - __main__ - INFO - Using guide: D:\cc-working-dir\IPMDAR-AgenticSystem\dataset\IPMDAR Implementation Guide - Oct2020 - For Public Release - Signature Edition.pdf
+2025-01-30 20:24:22,440 - __main__ - INFO - Using dataset: D:\cc-working-dir\IPMDAR-AgenticSystem\dataset\IPMDAR_Complete_Detailed_Training_Dataset.json
+2025-01-30 20:24:24,190 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-01-30 20:24:24,190 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2025-01-30 20:24:41,482 - agents.training.ipmdar_trainer - ERROR - Schedule Risk Training Error: 'duration'
+2025-01-30 20:24:41,483 - __main__ - INFO - IPMDAR specialized training completed successfully!
+2025-01-30 20:24:41,483 - __main__ - INFO - Knowledge base size: 31 entries
+2025-01-30 20:24:41,483 - __main__ - INFO - data_ingestion training completed - Accuracy: 95.00%
+2025-01-30 20:24:41,483 - __main__ - INFO - evm_analyzer training completed - Accuracy: 95.00%
+2025-01-30 20:24:41,483 - __main__ - ERROR - schedule_risk training failed: 'duration'
+2025-01-30 20:24:41,484 - __main__ - INFO - compliance training completed - Accuracy: 95.00%
+2025-01-30 20:24:41,484 - __main__ - INFO - predictive_analytics training completed - Accuracy: 95.00%
+2025-01-30 20:24:41,484 - __main__ - INFO - report_generator training completed - Accuracy: 95.00%
+2025-01-30 20:25:46,396 - __main__ - INFO - Starting IPMDAR AI Agents specialized training...
+2025-01-30 20:25:46,396 - __main__ - INFO - Using guide: D:\cc-working-dir\IPMDAR-AgenticSystem\dataset\IPMDAR Implementation Guide - Oct2020 - For Public Release - Signature Edition.pdf
+2025-01-30 20:25:46,396 - __main__ - INFO - Using dataset: D:\cc-working-dir\IPMDAR-AgenticSystem\dataset\IPMDAR_Complete_Detailed_Training_Dataset.json
+2025-01-30 20:25:48,174 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-01-30 20:25:48,174 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2025-01-30 20:26:03,893 - agents.training.ipmdar_trainer - ERROR - Schedule Risk Training Error: 'duration'
+2025-01-30 20:26:03,893 - __main__ - INFO - IPMDAR specialized training completed successfully!
+2025-01-30 20:26:03,893 - __main__ - INFO - Knowledge base size: 31 entries
+2025-01-30 20:26:03,893 - __main__ - INFO - data_ingestion training completed - Accuracy: 95.00%
+2025-01-30 20:26:03,893 - __main__ - INFO - evm_analyzer training completed - Accuracy: 95.00%
+2025-01-30 20:26:03,893 - __main__ - ERROR - schedule_risk training failed: 'duration'
+2025-01-30 20:26:03,894 - __main__ - INFO - compliance training completed - Accuracy: 95.00%
+2025-01-30 20:26:03,894 - __main__ - INFO - predictive_analytics training completed - Accuracy: 95.00%
+2025-01-30 20:26:03,894 - __main__ - INFO - report_generator training completed - Accuracy: 95.00%
+2025-01-30 20:26:53,825 - __main__ - INFO - Starting IPMDAR AI Agents specialized training...
+2025-01-30 20:26:53,825 - __main__ - INFO - Using guide: D:\cc-working-dir\IPMDAR-AgenticSystem\dataset\IPMDAR Implementation Guide - Oct2020 - For Public Release - Signature Edition.pdf
+2025-01-30 20:26:53,825 - __main__ - INFO - Using dataset: D:\cc-working-dir\IPMDAR-AgenticSystem\dataset\IPMDAR_Complete_Detailed_Training_Dataset.json
+2025-01-30 20:26:55,580 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-01-30 20:26:55,581 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2025-01-30 20:27:11,698 - agents.training.ipmdar_trainer - ERROR - Schedule Risk Training Error: 'duration'
+2025-01-30 20:27:11,699 - __main__ - INFO - IPMDAR specialized training completed successfully!
+2025-01-30 20:27:11,699 - __main__ - INFO - Knowledge base size: 31 entries
+2025-01-30 20:27:11,699 - __main__ - INFO - data_ingestion training completed - Accuracy: 95.00%
+2025-01-30 20:27:11,699 - __main__ - INFO - evm_analyzer training completed - Accuracy: 95.00%
+2025-01-30 20:27:11,699 - __main__ - ERROR - schedule_risk training failed: 'duration'
+2025-01-30 20:27:11,699 - __main__ - INFO - compliance training completed - Accuracy: 95.00%
+2025-01-30 20:27:11,699 - __main__ - INFO - predictive_analytics training completed - Accuracy: 95.00%
+2025-01-30 20:27:11,699 - __main__ - INFO - report_generator training completed - Accuracy: 95.00%
+2025-01-30 20:28:38,394 - __main__ - INFO - Starting IPMDAR AI Agents specialized training...
+2025-01-30 20:28:38,394 - __main__ - INFO - Using guide: D:\cc-working-dir\IPMDAR-AgenticSystem\dataset\IPMDAR Implementation Guide - Oct2020 - For Public Release - Signature Edition.pdf
+2025-01-30 20:28:38,394 - __main__ - INFO - Using dataset: D:\cc-working-dir\IPMDAR-AgenticSystem\dataset\IPMDAR_Complete_Detailed_Training_Dataset.json
+2025-01-30 20:28:40,187 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-01-30 20:28:40,187 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2025-01-30 20:28:55,901 - agents.training.ipmdar_trainer - ERROR - Schedule Risk Training Error: 'IPMDARTrainer' object has no attribute 'training_data'
+2025-01-30 20:28:55,901 - __main__ - INFO - IPMDAR specialized training completed successfully!
+2025-01-30 20:28:55,901 - __main__ - INFO - Knowledge base size: 31 entries
+2025-01-30 20:28:55,901 - __main__ - INFO - data_ingestion training completed - Accuracy: 95.00%
+2025-01-30 20:28:55,901 - __main__ - INFO - evm_analyzer training completed - Accuracy: 95.00%
+2025-01-30 20:28:55,901 - __main__ - ERROR - schedule_risk training failed: 'IPMDARTrainer' object has no attribute 'training_data'
+2025-01-30 20:28:55,901 - __main__ - INFO - compliance training completed - Accuracy: 95.00%
+2025-01-30 20:28:55,902 - __main__ - INFO - predictive_analytics training completed - Accuracy: 95.00%
+2025-01-30 20:28:55,902 - __main__ - INFO - report_generator training completed - Accuracy: 95.00%
+2025-01-30 20:30:00,240 - __main__ - INFO - Starting IPMDAR AI Agents specialized training...
+2025-01-30 20:30:00,241 - __main__ - INFO - Using guide: D:\cc-working-dir\IPMDAR-AgenticSystem\dataset\IPMDAR Implementation Guide - Oct2020 - For Public Release - Signature Edition.pdf
+2025-01-30 20:30:00,241 - __main__ - INFO - Using dataset: D:\cc-working-dir\IPMDAR-AgenticSystem\dataset\IPMDAR_Complete_Detailed_Training_Dataset.json
+2025-01-30 20:30:02,016 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-01-30 20:30:02,016 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2025-01-30 20:30:03,769 - __main__ - ERROR - Training process error: name 'DataIngestionAgent' is not defined
+2025-01-30 20:30:51,893 - __main__ - INFO - Starting IPMDAR AI Agents specialized training...
+2025-01-30 20:30:51,895 - __main__ - INFO - Using guide: D:\cc-working-dir\IPMDAR-AgenticSystem\dataset\IPMDAR Implementation Guide - Oct2020 - For Public Release - Signature Edition.pdf
+2025-01-30 20:30:51,895 - __main__ - INFO - Using dataset: D:\cc-working-dir\IPMDAR-AgenticSystem\dataset\IPMDAR_Complete_Detailed_Training_Dataset.json
+2025-01-30 20:30:53,854 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-01-30 20:30:53,854 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2025-01-30 20:31:10,745 - ScheduleRiskAgent - ERROR - Error training schedule risk model: could not convert string to float: '2024-02-01'
+2025-01-30 20:31:10,745 - agents.training.ipmdar_trainer - ERROR - Schedule Risk Training Error: could not convert string to float: '2024-02-01'
+2025-01-30 20:31:10,745 - __main__ - INFO - IPMDAR specialized training completed successfully!
+2025-01-30 20:31:10,745 - __main__ - INFO - Knowledge base size: 31 entries
+2025-01-30 20:31:10,745 - __main__ - INFO - data_ingestion training completed - Accuracy: 95.00%
+2025-01-30 20:31:10,746 - __main__ - INFO - evm_analyzer training completed - Accuracy: 95.00%
+2025-01-30 20:31:10,746 - __main__ - ERROR - schedule_risk training failed: could not convert string to float: '2024-02-01'
+2025-01-30 20:31:10,746 - __main__ - INFO - compliance training completed - Accuracy: 95.00%
+2025-01-30 20:31:10,746 - __main__ - INFO - predictive_analytics training completed - Accuracy: 95.00%
+2025-01-30 20:31:10,746 - __main__ - INFO - report_generator training completed - Accuracy: 95.00%
+2025-01-30 20:34:04,328 - __main__ - INFO - Starting IPMDAR AI Agents specialized training...
+2025-01-30 20:34:04,328 - __main__ - INFO - Using guide: D:\cc-working-dir\IPMDAR-AgenticSystem\dataset\IPMDAR Implementation Guide - Oct2020 - For Public Release - Signature Edition.pdf
+2025-01-30 20:34:04,328 - __main__ - INFO - Using dataset: D:\cc-working-dir\IPMDAR-AgenticSystem\dataset\IPMDAR_Complete_Detailed_Training_Dataset.json
+2025-01-30 20:34:06,349 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-01-30 20:34:06,349 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2025-01-30 20:34:23,495 - __main__ - INFO - IPMDAR specialized training completed successfully!
+2025-01-30 20:34:23,496 - __main__ - INFO - Knowledge base size: 31 entries
+2025-01-30 20:34:23,496 - __main__ - INFO - data_ingestion training completed - Accuracy: 95.00%
+2025-01-30 20:34:23,496 - __main__ - INFO - evm_analyzer training completed - Accuracy: 95.00%
+2025-01-30 20:34:23,496 - __main__ - INFO - schedule_risk training completed - Accuracy: 0.00%
+2025-01-30 20:34:23,496 - __main__ - INFO - compliance training completed - Accuracy: 95.00%
+2025-01-30 20:34:23,496 - __main__ - INFO - predictive_analytics training completed - Accuracy: 95.00%
+2025-01-30 20:34:23,496 - __main__ - INFO - report_generator training completed - Accuracy: 95.00%
+2025-01-30 20:36:31,038 - __main__ - INFO - Starting IPMDAR AI Agents specialized training...
+2025-01-30 20:36:31,038 - __main__ - INFO - Using guide: D:\cc-working-dir\IPMDAR-AgenticSystem\dataset\IPMDAR Implementation Guide - Oct2020 - For Public Release - Signature Edition.pdf
+2025-01-30 20:36:31,038 - __main__ - INFO - Using dataset: D:\cc-working-dir\IPMDAR-AgenticSystem\dataset\IPMDAR_Complete_Detailed_Training_Dataset.json
+2025-01-30 20:36:33,513 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-01-30 20:36:33,513 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2025-01-30 20:36:49,996 - __main__ - INFO - IPMDAR specialized training completed successfully!
+2025-01-30 20:36:49,996 - __main__ - INFO - Knowledge base size: 31 entries
+2025-01-30 20:36:49,996 - __main__ - INFO - data_ingestion training completed - Accuracy: 95.00%
+2025-01-30 20:36:49,996 - __main__ - INFO - evm_analyzer training completed - Accuracy: 95.00%
+2025-01-30 20:36:49,996 - __main__ - INFO - schedule_risk training completed - Accuracy: 0.00%
+2025-01-30 20:36:49,996 - __main__ - INFO - compliance training completed - Accuracy: 95.00%
+2025-01-30 20:36:49,996 - __main__ - INFO - predictive_analytics training completed - Accuracy: 95.00%
+2025-01-30 20:36:49,997 - __main__ - INFO - report_generator training completed - Accuracy: 95.00%
+2025-01-30 20:38:18,349 - __main__ - INFO - Starting IPMDAR AI Agents specialized training...
+2025-01-30 20:38:18,353 - __main__ - INFO - Using guide: D:\cc-working-dir\IPMDAR-AgenticSystem\dataset\IPMDAR Implementation Guide - Oct2020 - For Public Release - Signature Edition.pdf
+2025-01-30 20:38:18,353 - __main__ - INFO - Using dataset: D:\cc-working-dir\IPMDAR-AgenticSystem\dataset\IPMDAR_Complete_Detailed_Training_Dataset.json
+2025-01-30 20:38:21,883 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-01-30 20:38:21,883 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2025-01-30 20:38:51,630 - __main__ - INFO - IPMDAR specialized training completed successfully!
+2025-01-30 20:38:51,630 - __main__ - INFO - Knowledge base size: 31 entries
+2025-01-30 20:38:51,630 - __main__ - INFO - data_ingestion training completed - Accuracy: 95.00%
+2025-01-30 20:38:51,630 - __main__ - INFO - evm_analyzer training completed - Accuracy: 95.00%
+2025-01-30 20:38:51,631 - __main__ - INFO - schedule_risk training completed - Accuracy: 0.00%
+2025-01-30 20:38:51,631 - __main__ - INFO - compliance training completed - Accuracy: 95.00%
+2025-01-30 20:38:51,631 - __main__ - INFO - predictive_analytics training completed - Accuracy: 95.00%
+2025-01-30 20:38:51,631 - __main__ - INFO - report_generator training completed - Accuracy: 95.00%
+2025-01-30 20:42:08,192 - __main__ - INFO - Starting IPMDAR AI Agents specialized training...
+2025-01-30 20:42:08,193 - __main__ - INFO - Using guide: D:\cc-working-dir\IPMDAR-AgenticSystem\dataset\IPMDAR Implementation Guide - Oct2020 - For Public Release - Signature Edition.pdf
+2025-01-30 20:42:08,193 - __main__ - INFO - Using dataset: D:\cc-working-dir\IPMDAR-AgenticSystem\dataset\IPMDAR_Complete_Detailed_Training_Dataset.json
+2025-01-30 20:42:13,482 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-01-30 20:42:13,482 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2025-01-30 20:42:37,937 - __main__ - INFO - IPMDAR specialized training completed successfully!
+2025-01-30 20:42:37,937 - __main__ - INFO - Knowledge base size: 31 entries
+2025-01-30 20:42:37,937 - __main__ - INFO - data_ingestion training completed - Accuracy: 95.00%
+2025-01-30 20:42:37,937 - __main__ - INFO - evm_analyzer training completed - Accuracy: 95.00%
+2025-01-30 20:42:37,937 - __main__ - INFO - schedule_risk training completed - Accuracy: 0.00%
+2025-01-30 20:42:37,937 - __main__ - INFO - compliance training completed - Accuracy: 95.00%
+2025-01-30 20:42:37,937 - __main__ - INFO - predictive_analytics training completed - Accuracy: 95.00%
+2025-01-30 20:42:37,937 - __main__ - INFO - report_generator training completed - Accuracy: 95.00%
+2025-01-30 21:08:12,076 - __main__ - INFO - Starting IPMDAR AI Agents specialized training...
+2025-01-30 21:08:12,076 - __main__ - INFO - Using guide: D:\cc-working-dir\IPMDAR-AgenticSystem\dataset\IPMDAR Implementation Guide - Oct2020 - For Public Release - Signature Edition.pdf
+2025-01-30 21:08:12,077 - __main__ - INFO - Using dataset: D:\cc-working-dir\IPMDAR-AgenticSystem\dataset\IPMDAR_Complete_Detailed_Training_Dataset.json
+2025-01-30 21:08:14,626 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-01-30 21:08:14,627 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2025-01-30 21:08:38,966 - agents.training.ipmdar_trainer - INFO - Features shape: (3, 18)
+2025-01-30 21:08:38,966 - agents.training.ipmdar_trainer - INFO - Features columns: ['baseline_duration', 'actual_duration', 'duration_variance', 'duration_variance_pct', 'baseline_cp_length', 'current_cp_length', 'cp_length_variance', 'cp_length_variance_pct', 'start_variance', 'finish_variance', 'schedule_performance_index', 'critical_ratio', 'total_float_consumed', 'float_consumption_rate', 'is_delayed_start', 'is_extended_duration', 'is_critical_delay', 'is_cp_extended']
+2025-01-30 21:08:39,037 - agents.training.ipmdar_trainer - INFO - Feature statistics:
+       baseline_duration  actual_duration  ...  is_critical_delay  is_cp_extended
+count           3.000000         3.000000  ...                3.0        3.000000
+mean          670.000000       690.000000  ...                0.0        0.666667
+std           103.923048        75.498344  ...                0.0        0.577350
+min           550.000000       610.000000  ...                0.0        0.000000
+25%           640.000000       655.000000  ...                0.0        0.500000
+50%           730.000000       700.000000  ...                0.0        1.000000
+75%           730.000000       730.000000  ...                0.0        1.000000
+max           730.000000       760.000000  ...                0.0        1.000000
+
+[8 rows x 18 columns]
+2025-01-30 21:08:39,041 - agents.training.ipmdar_trainer - INFO - Target value counts:
+risk_level
+1    1
+0    1
+2    1
+Name: count, dtype: int64
+2025-01-30 21:08:39,163 - agents.training.ipmdar_trainer - INFO - Test predictions: [0]
+2025-01-30 21:08:39,163 - agents.training.ipmdar_trainer - INFO - Test actual: [1]
+2025-01-30 21:08:39,164 - __main__ - INFO - IPMDAR specialized training completed successfully!
+2025-01-30 21:08:39,164 - __main__ - INFO - Knowledge base size: 31 entries
+2025-01-30 21:08:39,164 - __main__ - INFO - data_ingestion training completed - Accuracy: 95.00%
+2025-01-30 21:08:39,164 - __main__ - INFO - evm_analyzer training completed - Accuracy: 95.00%
+2025-01-30 21:08:39,164 - __main__ - INFO - schedule_risk training completed - Accuracy: 0.00%
+2025-01-30 21:08:39,164 - __main__ - INFO - compliance training completed - Accuracy: 95.00%
+2025-01-30 21:08:39,164 - __main__ - INFO - predictive_analytics training completed - Accuracy: 95.00%
+2025-01-30 21:08:39,164 - __main__ - INFO - report_generator training completed - Accuracy: 95.00%
+2025-01-30 21:10:13,269 - __main__ - INFO - Starting IPMDAR AI Agents specialized training...
+2025-01-30 21:10:13,269 - __main__ - INFO - Using guide: D:\cc-working-dir\IPMDAR-AgenticSystem\dataset\IPMDAR Implementation Guide - Oct2020 - For Public Release - Signature Edition.pdf
+2025-01-30 21:10:13,270 - __main__ - INFO - Using dataset: D:\cc-working-dir\IPMDAR-AgenticSystem\dataset\IPMDAR_Complete_Detailed_Training_Dataset.json
+2025-01-30 21:10:15,610 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-01-30 21:10:15,610 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2025-01-30 21:10:35,797 - agents.training.ipmdar_trainer - INFO - Features shape: (9, 18)
+2025-01-30 21:10:35,798 - agents.training.ipmdar_trainer - INFO - Features columns: ['baseline_duration', 'actual_duration', 'duration_variance', 'duration_variance_pct', 'baseline_cp_length', 'current_cp_length', 'cp_length_variance', 'cp_length_variance_pct', 'start_variance', 'finish_variance', 'schedule_performance_index', 'critical_ratio', 'total_float_consumed', 'float_consumption_rate', 'is_delayed_start', 'is_extended_duration', 'is_critical_delay', 'is_cp_extended']
+2025-01-30 21:10:35,845 - agents.training.ipmdar_trainer - INFO - Feature statistics:
+       baseline_duration  actual_duration  ...  is_critical_delay  is_cp_extended
+count           9.000000         9.000000  ...           9.000000        9.000000
+mean          661.111111       686.111111  ...           0.222222        0.666667
+std            87.634817        62.638735  ...           0.440959        0.500000
+min           540.000000       605.000000  ...           0.000000        0.000000
+25%           550.000000       615.000000  ...           0.000000        0.000000
+50%           710.000000       695.000000  ...           0.000000        1.000000
+75%           725.000000       745.000000  ...           0.000000        1.000000
+max           730.000000       760.000000  ...           1.000000        1.000000
+
+[8 rows x 18 columns]
+2025-01-30 21:10:35,848 - agents.training.ipmdar_trainer - INFO - Target value counts:
+risk_level
+1    3
+0    3
+2    3
+Name: count, dtype: int64
+2025-01-30 21:10:36,326 - agents.training.ipmdar_trainer - INFO - Test predictions: [0 0]
+2025-01-30 21:10:36,327 - agents.training.ipmdar_trainer - INFO - Test actual: [0 0]
+2025-01-30 21:10:36,334 - __main__ - INFO - IPMDAR specialized training completed successfully!
+2025-01-30 21:10:36,335 - __main__ - INFO - Knowledge base size: 31 entries
+2025-01-30 21:10:36,335 - __main__ - INFO - data_ingestion training completed - Accuracy: 95.00%
+2025-01-30 21:10:36,335 - __main__ - INFO - evm_analyzer training completed - Accuracy: 95.00%
+2025-01-30 21:10:36,335 - __main__ - INFO - schedule_risk training completed - Accuracy: 100.00%
+2025-01-30 21:10:36,335 - __main__ - INFO - compliance training completed - Accuracy: 95.00%
+2025-01-30 21:10:36,335 - __main__ - INFO - predictive_analytics training completed - Accuracy: 95.00%
+2025-01-30 21:10:36,335 - __main__ - INFO - report_generator training completed - Accuracy: 95.00%
+2025-01-30 21:11:40,470 - __main__ - INFO - Starting IPMDAR AI Agents specialized training...
+2025-01-30 21:11:40,472 - __main__ - INFO - Using guide: D:\cc-working-dir\IPMDAR-AgenticSystem\dataset\IPMDAR Implementation Guide - Oct2020 - For Public Release - Signature Edition.pdf
+2025-01-30 21:11:40,472 - __main__ - INFO - Using dataset: D:\cc-working-dir\IPMDAR-AgenticSystem\dataset\IPMDAR_Complete_Detailed_Training_Dataset.json
+2025-01-30 21:11:42,654 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-01-30 21:11:42,654 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2025-01-30 21:12:04,685 - agents.training.ipmdar_trainer - INFO - Features shape: (9, 18)
+2025-01-30 21:12:04,685 - agents.training.ipmdar_trainer - INFO - Features columns: ['baseline_duration', 'actual_duration', 'duration_variance', 'duration_variance_pct', 'baseline_cp_length', 'current_cp_length', 'cp_length_variance', 'cp_length_variance_pct', 'start_variance', 'finish_variance', 'schedule_performance_index', 'critical_ratio', 'total_float_consumed', 'float_consumption_rate', 'is_delayed_start', 'is_extended_duration', 'is_critical_delay', 'is_cp_extended']
+2025-01-30 21:12:04,736 - agents.training.ipmdar_trainer - INFO - Feature statistics:
+       baseline_duration  actual_duration  ...  is_critical_delay  is_cp_extended
+count           9.000000         9.000000  ...           9.000000        9.000000
+mean          661.111111       686.111111  ...           0.222222        0.666667
+std            87.634817        62.638735  ...           0.440959        0.500000
+min           540.000000       605.000000  ...           0.000000        0.000000
+25%           550.000000       615.000000  ...           0.000000        0.000000
+50%           710.000000       695.000000  ...           0.000000        1.000000
+75%           725.000000       745.000000  ...           0.000000        1.000000
+max           730.000000       760.000000  ...           1.000000        1.000000
+
+[8 rows x 18 columns]
+2025-01-30 21:12:04,738 - agents.training.ipmdar_trainer - INFO - Target value counts:
+risk_level
+1    3
+0    3
+2    3
+Name: count, dtype: int64
+2025-01-30 21:12:05,317 - agents.training.ipmdar_trainer - INFO - Test predictions: [0 0]
+2025-01-30 21:12:05,318 - agents.training.ipmdar_trainer - INFO - Test actual: [0 0]
+2025-01-30 21:12:05,326 - agents.training.ipmdar_trainer - INFO - Top 5 most important features for risk prediction:
+2025-01-30 21:12:05,326 - agents.training.ipmdar_trainer - INFO - actual_duration: 0.2255
+2025-01-30 21:12:05,326 - agents.training.ipmdar_trainer - INFO - schedule_performance_index: 0.1234
+2025-01-30 21:12:05,326 - agents.training.ipmdar_trainer - INFO - duration_variance: 0.0961
+2025-01-30 21:12:05,326 - agents.training.ipmdar_trainer - INFO - current_cp_length: 0.0802
+2025-01-30 21:12:05,326 - agents.training.ipmdar_trainer - INFO - finish_variance: 0.0778
+2025-01-30 21:12:05,327 - __main__ - INFO - IPMDAR specialized training completed successfully!
+2025-01-30 21:12:05,327 - __main__ - INFO - Knowledge base size: 31 entries
+2025-01-30 21:12:05,327 - __main__ - INFO - data_ingestion training completed - Accuracy: 95.00%
+2025-01-30 21:12:05,327 - __main__ - INFO - evm_analyzer training completed - Accuracy: 95.00%
+2025-01-30 21:12:05,327 - __main__ - INFO - schedule_risk training completed - Accuracy: 100.00%
+2025-01-30 21:12:05,327 - __main__ - INFO - compliance training completed - Accuracy: 95.00%
+2025-01-30 21:12:05,327 - __main__ - INFO - predictive_analytics training completed - Accuracy: 95.00%
+2025-01-30 21:12:05,328 - __main__ - INFO - report_generator training completed - Accuracy: 95.00%
